@@ -1,4 +1,4 @@
-import React, { ChangeEvent, FormEvent, useState, useRef } from "react";
+import React, { ChangeEvent, FormEvent, useState } from "react";
 import './App.css';
 import axios from "axios";
 // import ReCAPTCHA from "react-google-recaptcha";
@@ -29,7 +29,6 @@ function Contact() {
     const [formState, setFormState] = useState<FormState>(initialFormState);
     const [submitting, setSubmitting] = useState<boolean>(false);
     const [message, setMessage] = useState<Servicemessage>();
-    const [recaptchaToken, setRecaptchaToken] = useState<string>();
     const submitForm = async (e: FormEvent) => {
         e.preventDefault();
         setSubmitting(true);

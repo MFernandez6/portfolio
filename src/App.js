@@ -1,10 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
 import Home from "./Home";
 import About from "./About";
 import Projects from './Projects';
 import Contact from './Contact.tsx';
-import { Route, Link } from 'react-router-dom'
+import { Route } from 'react-router-dom'
 import NavBar from './NavBar';
 
 function App() {
