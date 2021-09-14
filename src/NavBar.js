@@ -20,7 +20,7 @@ function NavBar() {
                 <button onClick={() => setShowLinks(!showLinks)}> <ReorderIcon /> </button>
             </div>
             <div className="rightSide">
-                Miguel Angel Fernandez
+                Miguel Angel Fernandez || Portfolio '21
             </div>
         </div>
     )
