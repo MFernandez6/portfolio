@@ -2,8 +2,25 @@ import React from "react";
 
 function Projects() {
     return (
-        <div>
-            <h1>My Projects!</h1>
+        <div className="aboutMeDiv">
+            <div className="aboutMe">
+                <h1>PROJECTS:</h1>
+                <br />
+                <ul>
+                    <li>
+                        Fernandez Investment Firm, LLC.
+                    </li>
+                    <li>
+                        Pichon's Food truck
+                    </li>
+                    <li>
+                        Miami Vending Solutions, LLC.
+                    </li>
+                    <li>
+                        River Run Rentals
+                    </li>
+                </ul>
+            </div>
         </div>
     )
 }

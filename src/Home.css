@@ -1,0 +1,19 @@
+.welcomeDiv {
+    position: relative;
+    height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
+    overflow: hidden;
+    background-color: rgb(178, 178, 192);
+}
+
+.welcome {
+    background-color: #021e39;
+    color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+    padding: 10%;
+    box-sizing: border-box;
+    font-family: "NeueHaasGrotesk", sans-serif;
+    list-style: none;
+}

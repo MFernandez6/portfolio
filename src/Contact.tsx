@@ -72,7 +72,7 @@ function Contact() {
 
     return (
 
-        <div className="flex">
+        <div className="contactForm flex">
             <div className="contactForm w-auto m-auto ml-8 p-10 justify-left shadow-lg">
                 <div>
                     <b>Miguel A. Fernandez, M.Sc.</b>
@@ -88,7 +88,7 @@ function Contact() {
             </div>
 
             <div className="contactForm w-auto m-8 p-8 justify-right shadow-lg">
-                <h1 className="text-4xl font-bold flex items-center">
+                <h1 className="messageBox text-4xl font-bold flex items-center">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-5 transform rotate-45" viewBox="0 0 20 20" fill="currentColor">
                         <path d="M10.894 2.553a1 1 0 00-1.788 0l-7 14a1 1 0 001.169 1.409l5-1.429A1 1 0 009 15.571V11a1 1 0 112 0v4.571a1 1 0 00.725.962l5 1.428a1 1 0 001.17-1.408l-7-14z" />
                     </svg>
@@ -98,7 +98,7 @@ function Contact() {
                     <div className={`my-4 text-white w-full p-4 ${message.class}`}>
                         {message.text}
                     </div>)}
-                <form className="flex flex-col" onSubmit={submitForm}>
+                <form className="messageBox flex flex-col" onSubmit={submitForm}>
                     <div className="my-2 flex flex-col">
                         <label htmlFor="name">Name</label>
                         <input type="text" className="border-2 p-2" id="name" value={formState?.name} onChange={updateFormControl}></input>

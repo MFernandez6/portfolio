@@ -40,7 +40,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
 
 body {
-  background: whitesmoke;
+  background-color: rgb(178, 178, 192);
   min-height: 100vh;
   justify-content: center;
   align-items: center;
@@ -104,4 +104,12 @@ button {
 
 button:disabled {
   cursor: default;
+}
+
+.flex {
+  background-color: rgb(178, 178, 192);
+}
+
+.messageBox {
+  background-color: lightgray;
 }
